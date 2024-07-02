@@ -10,35 +10,38 @@
   </head>
 
   <body>
-    <header><h1>Welcome to my AI Poem Generator</h1></header>
+    <div class="container">
+      <header><h1>Welcome to my AI Poem Generator</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic you like"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Poem will be here
-        <br />
-        and here
-      </div>
-    </main>
-    <footer>
-      This is coded by
-      <a href="https://www.linkedin.com/in/rochelle-anderson-a740b214a/"
-        >Rochelle Anderson</a
-      >. I'm on
-      <a href="https://github.com/ChelleRB/AI-poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and <a href="https://ai-poem-generator-jwan.onrender.com">Render</a>
-    </footer>
-    <script src="src/index.js"></script>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic you like"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Poem will be here
+          <br />
+          and here
+        </div>
+      </main>
+      <footer>
+        This is coded by
+        <a href="https://www.linkedin.com/in/rochelle-anderson-a740b214a/"
+          >Rochelle Anderson</a
+        >. I'm on
+        <a href="https://github.com/ChelleRB/AI-poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and <a href="https://ai-poem-generator-jwan.onrender.com">Render</a>
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
