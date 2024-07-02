@@ -37,7 +37,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 1;
-  color: steelblue;
+  color: lightslategray;
   background-color: aliceblue;
 }
 
@@ -62,6 +62,10 @@ form {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   color: aliceblue;
+}
+
+.poem strong {
+  color: lightcyan;
 }
 
 footer {
