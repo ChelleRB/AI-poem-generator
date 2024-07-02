@@ -22,12 +22,15 @@ h1 {
   text-align: center;
 }
 
-form {
+.form-container {
   padding: 16px;
   background-color: white;
   border-radius: 8px;
-  display: flex;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
 }
 
 .instructions {
